@@ -5,10 +5,13 @@ header {
     margin: auto;
     background-color: rgba(0, 0, 0, 0.226);
     text-align: center;
-    max-width: 900px;
+    max-width: 800px;
     min-width: 200px;
     padding-bottom: 50px;
     border-radius: 0px 0px 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 20px;
 }
 
 
