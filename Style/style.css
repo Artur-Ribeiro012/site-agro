@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --cor1: ;
-    --cor2: #727A6E;
-    --cor3: #BFE655;
-    --cor4: #55E661;
-    --cor5: #82E655;
-    --cor6: #E6DF55;
-    --cor6: #55E692;
-}
-
 
 * {
     margin: 0px;
@@ -17,21 +7,20 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgba(56, 119, 67, 0.445);
 }
 
 
 header h1 {
-    padding: 10px;
     text-align: center;
     font-size: 2em;
-    margin-bottom: 50px;
+    padding: 20px;
     color: white;
 }
 
 menu {
     display: none;
-    background-color: #731702;
+    background-color: rgba(66, 82, 40, 0.514);
 }
 
 menu > ul > li {
@@ -53,11 +42,11 @@ a {
     text-decoration: none;
     color:  white;
     border-top: 2px solid rgb(8, 0, 0);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 a:hover {
-    background-color: #0D6600;
+    background-color: rgb(72, 99, 28);
 }
 
 span {
@@ -73,9 +62,40 @@ div#container, h1 {
 div#container {
     float: left;
     font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 10px;
 }
 
 div#color {
-    background-color: #1D5810;
-    height: 60px;
+    background-color: rgba(34, 102, 20, 0.719);
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+p {
+    padding-bottom: 30px;
+    margin: 20px 15px 10px 15px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+h1.start {
+    padding-top: 30px;
+    font-size: 2em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 10px;
+    font-weight: bolder;
 }
