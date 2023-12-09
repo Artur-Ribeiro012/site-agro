@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --cor1: #262B2D;
+    --cor1: ;
     --cor2: #727A6E;
     --cor3: #BFE655;
     --cor4: #55E661;
@@ -31,7 +31,7 @@ header h1 {
 
 menu {
     display: none;
-    background-color: var(--cor2);
+    background-color: #731702;
 }
 
 menu > ul > li {
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: #0D6600;
 }
 
 span {
@@ -76,6 +76,6 @@ div#container {
 }
 
 div#color {
-    background-color: #262B2D;
+    background-color: #1D5810;
     height: 60px;
 }
