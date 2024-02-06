@@ -229,3 +229,7 @@ a {
 p {
     text-indent: 0px;
 }
+
+p {
+    text-align: right;
+}
