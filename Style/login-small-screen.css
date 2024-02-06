@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+body {
+    height: 100vh;
+    
+    background-image: linear-gradient(45deg, #4276bbcc, #4ddb7c8f);
+}
+
+div#tela-login {
+    border-radius: 20px;
+    width: 250px;
+    background-image: linear-gradient(45deg, rgba(136, 255, 0, 0.514), rgba(0, 26, 255, 0.575));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.589);
+}
+
+div#tela-login h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: white;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.719);
+    font-weight: bolder;
+}
+
+div#tela-login p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.781);
+}
+
+div.back-form {
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div.input {
+    display: block;
+}
+
+div.input > input {
+    width: 220px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: relative;
+    right: 15px;
+}
+
+div.input > input::placeholder {
+    text-indent: 10px;
+    color: black;
+}
+
+div.input:hover > input::placeholder {
+    transition: 0.5s;
+    transform: translateY(-35%);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.644);
+}
+
+div.input > input {
+    background-color: #5ea09d7a;
+    height: 25px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.616);
+}
+
+div.input > label {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+div.icons, div.icons > a {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div.icons > i {
+    margin-left: 550px;
+}
+
+div.link {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(27, 27, 27, 0.253);
+    background-color: #5FA19E;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+div > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
