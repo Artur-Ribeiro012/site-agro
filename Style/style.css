@@ -71,7 +71,6 @@ div#geral > h1 {
 
 div#geral > p {
     margin-top: 50px;
-    
     padding-bottom: 50px;
     text-align: center;
     text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.945);
@@ -80,8 +79,7 @@ div#geral > p {
 }
 
 main {
-    max-width: 500px;
-    min-width: 300px;
+    max-width: 1000px;
     background-color: white;
     margin: auto;
     padding: 20px;
@@ -219,3 +217,44 @@ strong > a {
 menu#itens {
     display: none;
 }
+
+.fim {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 1000px) { 
+    menu#itens > ul > a {
+        padding: 20px;
+        text-decoration: none;
+        border-top: none;
+        display: inline-block;
+        color: white;
+        font-family: 'Roboto';
+        transition: 0.5s;
+    }   
+
+    menu#itens > ul > a:hover {
+        color: rgba(2, 53, 2, 0.377);
+        background-color: chartreuse;
+       
+    }
+
+    div#icon-menu {
+        display: none;
+    }
+    menu#itens {
+        display: flex;
+        justify-content: right;
+    }
+    header > div#menu > menu#itens {
+        background-color: rgb(119, 145, 119);
+        background-image:linear-gradient(90deg, rgba(71, 148, 94, 0.795), rgba(4, 68, 4, 0.678));
+        font-size: 25px;
+        font-weight: bold;
+       
+    }
+    .fim {
+        border-bottom: none;
+    }
+    
+}   
